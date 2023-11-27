@@ -8,14 +8,15 @@ El producto final se ve así:
 
 Demostración de cursores en vivo
 
-<!-- Cambia 'your_embed_code' por el código de incrustación de YouTube -->
-<!--<iframe width="560" height="315" src="https://youtu.be/TPUOuFDaVUY?si=5alBwTBJ14yPm8cK" frameborder="0" allowfullscreen></iframe>-->
-[![Ver Video](https://youtu.be/TPUOuFDaVUY?si=5alBwTBJ14yPm8cK/0.jpg)](https://youtu.be/TPUOuFDaVUY?si=5alBwTBJ14yPm8cK)
 
-Haz clic en la imagen para ver el video.
+<!--[![Ver Video](https://youtu.be/TPUOuFDaVUY?si=5alBwTBJ14yPm8cK/0.jpg)](https://youtu.be/TPUOuFDaVUY?si=5alBwTBJ14yPm8cK)
+
+Haz clic en la imagen para ver el video.-->
+
+https://github.com/ElizabethYasmin/WebSocket-React/assets/62725994/e4754e10-fa51-44cd-92f7-0da00fec800b
 
 
-<!--<iframe width="560" height="315" src="https://youtu.be/2a5aNXr1ZgA" frameborder="0" allowfullscreen></iframe>-->
+
 
 
 ## Ejecutar la demo
