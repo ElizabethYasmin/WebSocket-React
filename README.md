@@ -11,7 +11,9 @@ Demostración de cursores en vivo
 
 <!--[![Ver Video](https://youtu.be/TPUOuFDaVUY?si=5alBwTBJ14yPm8cK/0.jpg)](https://youtu.be/TPUOuFDaVUY?si=5alBwTBJ14yPm8cK)
 
-Haz clic en la imagen para ver el video.-->
+AQUI AGREGO POR ISSUES LOS VIDEOS-->
+
+https://github.com/ElizabethYasmin/WebSocket-React/assets/62725994/ad1032eb-8c44-46c7-8118-33e7a95869c1
 
 https://github.com/ElizabethYasmin/WebSocket-React/assets/62725994/e4754e10-fa51-44cd-92f7-0da00fec800b
 
