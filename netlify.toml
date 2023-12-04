@@ -4,7 +4,7 @@
 
 [build]
   base = "client/"
-  publish = "client/dist/"  # Modifica esta línea para apuntar directamente a la carpeta de salida de la construcción del cliente
+  publish = "./dist/"  # Modifica esta línea para apuntar directamente a la carpeta de salida de la construcción del cliente
 
 [[plugins]]
   package = "@netlify/plugin-lighthouse"
