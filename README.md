@@ -37,7 +37,6 @@ Para ejecutar el servidor, ejecuta:
 cd server
 npm install
 npm start
-
 ```
 
 Para ejecutar el cliente simultáneamente, abre una nueva terminal y ejecuta:
@@ -45,7 +44,10 @@ Para ejecutar el cliente simultáneamente, abre una nueva terminal y ejecuta:
 ```bash
 cd client
 npm install
-npm run dev
-
-
+#npm run dev
+node index.js
 ```
+
+# Dockenizacion
+
+https://github.com/ElizabethYasmin/WebSocket-React/assets/62725994/8837b865-411e-4eed-aec7-2b4b88070aca
