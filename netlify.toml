@@ -1,6 +1,6 @@
 [build]
-  command = "cd cliente && npm install && npm run build"
-  publish = "cliente/dist"
+  command = "cd client && npm install && npm run build"
+  publish = "client/dist"
 
 [[redirects]]
   from = "/api/*"
@@ -9,5 +9,5 @@
 
 [[redirects]]
   from = "/*"
-  to = "/cliente/:splat"
+  to = "/client/:splat"
   status = 200
