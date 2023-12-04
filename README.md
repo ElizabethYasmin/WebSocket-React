@@ -51,3 +51,7 @@ npm run dev
 # Dockenizacion
 
 https://github.com/ElizabethYasmin/WebSocket-React/assets/62725994/8837b865-411e-4eed-aec7-2b4b88070aca
+
+# Netlify
+
+https://github.com/ElizabethYasmin/WebSocket-React/assets/62725994/11a8f5b7-f0b1-4986-8c62-b71c68c43e43

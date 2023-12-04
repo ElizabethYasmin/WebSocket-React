@@ -1,13 +1,20 @@
 [build]
-  command = "cd client && npm install && npm run dev"
+  command = "cd client && npm install && npm run build"
   publish = "client/dist"
 
 [[redirects]]
   from = "/api/*"
-  to = "/server/:splat"
+  to = "http://localhost:8000/:splat"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/*"
   to = "/client/:splat"
   status = 200
+
+[[functions]]
+  path = "server/functions"
+
+[context.production.environment]
+  NODE_ENV = "production"
