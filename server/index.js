@@ -43,7 +43,7 @@ const handleClose = uuid=>{
 }
 
 wsServer.on("connection", (connection,request)=>{
-    //ws://localhost:8000?username=Alex
+    //ws://localhost:8000?username=yasmin
     const { username}= url.parse(request.url, true).query 
     const uuid = uuidv4()
     console.log(username)
