@@ -10,7 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@netlify/plugin-lighthouse": "^5.0.0",
+    "@netlify/serverless-functions-api": "^1.12.1",
     "lodash.throttle": "^4.1.1",
+    "netlify": "^13.1.11",
     "perfect-cursors": "^1.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

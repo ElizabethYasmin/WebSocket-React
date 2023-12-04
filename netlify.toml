@@ -1,20 +1,6 @@
-# Configuración para Netlify
-
-# Comando de construcción para la parte del cliente (Vite)
 [build]
   command = "cd cliente && npm install && npm run build"
   publish = "cliente/dist"
-
-# Comando para iniciar tu servidor Node.js
-[[plugins]]
-  package = "@netlify/plugin-functions-core"
-  [plugins.inputs]
-    node_bundler = "esbuild"
-    node_bundler_target = "12"
-    node_engine = true
-
-[[plugins]]
-  package = "@netlify/plugin-sitemap"
 
 [[redirects]]
   from = "/api/*"
@@ -25,7 +11,3 @@
   from = "/*"
   to = "/cliente/:splat"
   status = 200
-
-# Configuración adicional (ajústala según tus necesidades)
-#[context.production.environment]
-#  NODE_ENV = "production"
