@@ -1,31 +1,3 @@
-#[build]
-#  command = "npm run build"  # Comando para construir el cliente (ajusta según tu configuración)
-#  functions = "./server"  # Ruta a la carpeta del servidor
-
 [build]
-  base = "client/"
-  publish = "./dist/"  # Modifica esta línea para apuntar directamente a la carpeta de salida de la construcción del cliente
-
-[[plugins]]
-  package = "@netlify/plugin-lighthouse"
-
-[functions]
-  directory = "server/"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Content-Security-Policy = "frame-ancestors https://www.facebook.com"
-    X-Frame-Options = "DENY"
-    X-XSS-Protection = "1; mode=block"
-    cache-control = "max-age=0, no-cache, no-store, must-revalidate"
-
-[dev]
-  command = "npm run dev"
-  port = 8888
-  publish = "client/dist/"
+  command = "npm run build"  # Comando para construir el cliente (ajusta según tu configuración)
+  functions = "./server"  # Ruta a la carpeta del servidor
