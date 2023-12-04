@@ -1,3 +1,21 @@
+# Configuración para Netlify
+
+# Configuración para la parte del cliente (Vite)
 [build]
-  command = "npm run build"  # Comando para construir el cliente (ajusta según tu configuración)
-  functions = "./server"  # Ruta a la carpeta del servidor
+  command = "npm run build"  # Asegúrate de que coincida con tu script de construcción de Vite
+  publish = "cliente/dist"   # Asegúrate de que coincida con el directorio de salida de Vite
+
+# Configuración para la parte del servidor (Node.js)
+[[redirects]]
+  from = "/api/*"
+  to = "/server/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/cliente/:splat"
+  status = 200
+
+# Configuración adicional (ajústala según tus necesidades)
+#[context.production.environment]
+#  NODE_ENV = "production"
