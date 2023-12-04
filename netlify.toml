@@ -1,0 +1,3 @@
+[build]
+  command = "npm run build"  # Comando para construir el cliente (ajusta según tu configuración)
+  functions = "./server"  # Ruta a la carpeta del servidor
