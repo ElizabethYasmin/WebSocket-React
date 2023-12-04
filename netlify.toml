@@ -1,11 +1,21 @@
 # Configuración para Netlify
 
-# Configuración para la parte del cliente (Vite)
+# Comando de construcción para la parte del cliente (Vite)
 [build]
-  command = "npm run build"  # Asegúrate de que coincida con tu script de construcción de Vite
-  publish = "cliente/dist"   # Asegúrate de que coincida con el directorio de salida de Vite
+  command = "cd cliente && npm install && npm run build"
+  publish = "cliente/dist"
 
-# Configuración para la parte del servidor (Node.js)
+# Comando para iniciar tu servidor Node.js
+[[plugins]]
+  package = "@netlify/plugin-functions-core"
+  [plugins.inputs]
+    node_bundler = "esbuild"
+    node_bundler_target = "12"
+    node_engine = true
+
+[[plugins]]
+  package = "@netlify/plugin-sitemap"
+
 [[redirects]]
   from = "/api/*"
   to = "/server/:splat"
