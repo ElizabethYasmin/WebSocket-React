@@ -36,7 +36,8 @@ Para ejecutar el servidor, ejecuta:
 ```bash
 cd server
 npm install
-npm start
+#npm start
+node index.js
 ```
 
 Para ejecutar el cliente simultáneamente, abre una nueva terminal y ejecuta:
@@ -44,8 +45,7 @@ Para ejecutar el cliente simultáneamente, abre una nueva terminal y ejecuta:
 ```bash
 cd client
 npm install
-#npm run dev
-node index.js
+npm run dev
 ```
 
 # Dockenizacion
