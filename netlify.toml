@@ -12,9 +12,3 @@
   from = "/*"
   to = "/client/:splat"
   status = 200
-
-[[functions]]
-  path = "server/functions"
-
-[context.production.environment]
-  NODE_ENV = "production"
